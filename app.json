@@ -2,7 +2,7 @@
   "expo": {
     "name": "Latinco-materiales",
     "slug": "Latinco-materiales",
-    "version": "1.0.0",
+    "version": "1.0.7",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -11,28 +11,25 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1.0.7",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.Latincomateriales.app"
     },
     "android": {
+      "versionCode": 6,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "permissions": [
-        "android.permission.NFC"
-      ],
+      "permissions": ["android.permission.NFC"],
       "package": "com.mecaloza.Latincomateriales"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "react-native-nfc-manager"
-    ],
+    "plugins": ["react-native-nfc-manager", "expo-image-picker"],
     "extra": {
       "eas": {
         "projectId": "9ab2da8c-b618-457b-b1fe-3f3f1b87b158"
